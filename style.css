@@ -15,6 +15,7 @@
 
 .boxleft {
     width: 20%;
+    
 
 }
 
@@ -26,6 +27,7 @@
     padding-left: 0px;
     margin-top: 5px;
     border-radius: 10px;
+    
 
 
 }
@@ -33,10 +35,11 @@
 .boxleft2 {
     border: 6px solid black;
     height: 76vh;
-    background-color: rgb(26, 30, 29);
+  
     margin-left: 0px;
     padding-left: 0px;
     border-radius: 10px;
+    background-image: url(assets/background2.svg);
 
 
 }
@@ -44,7 +47,7 @@
 .boxright {
     border: 6px solid black;
     height: 97.5vh;
-    background-color: rgb(26, 30, 29);
+    background-color: rgb(52, 51, 54);
     width: 80%;
     margin-right: 0px;
     padding-left: 0px;
@@ -55,6 +58,7 @@
 .spotify {
     display: flex;
     font-size: 20px;
+    color: rgb(243, 188, 5);
     gap: 18px;
     align-items: center;
 }
@@ -62,6 +66,7 @@
 
 .home {
     font-size: 20px;
+    color: rgb(243, 188, 5);
     display: flex;
     gap: 18px;
     align-items: center;
@@ -69,6 +74,7 @@
 
 .search {
     font-size: 20px;
+    color: rgb(243, 188, 5);
     display: flex;
     gap: 18px;
     align-items: center;
@@ -121,7 +127,7 @@
 
 .main {
     background-image: url("assets/background.svg");
-    
+    background-size: cover;
     height: 92.2%;
     position: relative;
 }
