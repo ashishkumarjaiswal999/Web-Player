@@ -120,7 +120,8 @@
 }
 
 .main {
-    background-color: rgb(44, 49, 48);
+    background-image: url("assets/background.svg");
+    
     height: 92.2%;
     position: relative;
 }
