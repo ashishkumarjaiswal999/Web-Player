@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.mainbox {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.boxleft {
+    width: 20%;
+
+}
+
+.boxleft1 {
+    border: 6px solid black;
+    height: 20vh;
+    background-color: rgb(26, 30, 29);
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 5px;
+    border-radius: 10px;
+
+
+}
+
+.boxleft2 {
+    border: 6px solid black;
+    height: 76vh;
+    background-color: rgb(26, 30, 29);
+    margin-left: 0px;
+    padding-left: 0px;
+    border-radius: 10px;
+
+
+}
+
+.boxright {
+    border: 6px solid black;
+    height: 97.5vh;
+    background-color: rgb(26, 30, 29);
+    width: 80%;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.spotify {
+    display: flex;
+    font-size: 20px;
+    gap: 18px;
+    align-items: center;
+}
+
+
+.home {
+    font-size: 20px;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.search {
+    font-size: 20px;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.box1contents {
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrows {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-right: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.signup {
+    border-radius: 20px;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(26, 30, 29);
+    border-color: rgb(26, 30, 29);
+    border: 2px;
+    color: rgb(85, 89, 92);
+    font-size: large;
+}
+
+.login {
+    border-radius: 20px;
+    width: 80px;
+    font-weight: bold;
+}
+
+.main {
+    background-color: rgb(44, 49, 48);
+    height: 92.2%;
+    position: relative;
+}
+
+.lib {
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 15px;
+    color: rgb(179, 186, 191);
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spot {
+    color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.showall {
+    color: rgb(148, 158, 167);
+    margin-right: 25px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card {
+
+    height: 290px;
+    width: 210px;
+    background-color: rgb(39, 44, 44);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center ;
+    
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.im {
+    border-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+    width: 180px;
+    margin-top: 12px;
+    
+
+}
+
+.imm {
+    height: 15px;
+    z-index: 1;
+    left: 20px;
+    top: 20px;
+
+}
+
+.txt1 {
+    z-index: 1;
+    align-self: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.txt2 {
+    z-index: 1;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: small;
+    
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: rgb(48, 54, 54);
+}
+
+.hov:hover {
+    text-decoration: underline;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.playbar {
+    position: absolute;
+    bottom: 10px;
+    background-color: rgb(88, 99, 99);
+    width: 90%;
+    height: 8%;
+    border-radius: 10px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+
+.btn {
+    height: 25px;
+
+
+}
+
+.btns {
+    display: flex;
+    gap: 30px;
+}
+
+.songlist {
+    margin-top: 16px;
+    margin-left: 16px;
+    height: 60vh;
+    font-size: large;
+    overflow-y: scroll;
+    scrollbar-color: rgb(101, 85, 85);
+
+}
+
+.songlist::-webkit-scrollbar-thumb {
+    background: #2e3130;
+    border-radius: 10px;
+}
+
+.songlist::-webkit-scrollbar {
+    width: 10px;
+}
+
+.songlist::-webkit-scrollbar-track {
+    background: #121212;
+}
+
+.oip {
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+    
+}
+
+.music {
+    width: 260px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 2px solid rgb(80, 79, 79);
+    background-color: #2e3130;
+    border-radius: 5px;
+
+
+}
+
+.normalhov:hover {
+    cursor: pointer;
+    background-color: #454948;
+}
+.nhov:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.dur{
+    font-size: larger;
+    position: absolute;
+    right: 100px;
+    bottom: 18px;
+}
+.songname{
+    position: absolute;
+    left: 100px;
+    font-size: larger;
+}
+.seekbar{
+    height: 2px;
+    width: 71vw;
+    border: 2px solid rgb(247, 244, 244);
+    position:absolute ;
+    left: 5px;
+    bottom: 1px;
+    border-radius: 5px;
+}
+.circle{
+    height: 1px;
+    width: 1px;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    position: absolute;
+    bottom: -2px;
+    left: 2px;
+}
+.seekhov:hover{
+    cursor: pointer;
+}
+.volumeseek{
+    height: 2px;
+    width: 80px;
+    border: 3px solid rgb(244, 244, 244);
+    position: absolute;
+    right: 360px;
+    bottom: 24px;
+}
+.volumecircle{
+    height: 1px;
+    width: 1px;
+    border: 6px solid rgb(244, 241, 241);
+    border-radius: 50px;
+    left: 75px;
+    bottom: -5px;
+    position: absolute;
+}
